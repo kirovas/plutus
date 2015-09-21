@@ -1050,7 +1050,16 @@ and (max-width : 768px) {
 and (min-width : 769px) 
 and (max-width : 1024px) {
     /* Styles */
-
+	.sf-logo{
+	float:none;
+}
+.address{
+	float:none;
+}
+.s-phone, .s-mail {
+    padding: 0px 15px;
+	float:none;
+}
 }
  
 /* Larger screens ----------- */
