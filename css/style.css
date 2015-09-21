@@ -982,9 +982,7 @@ and (max-width : 320px) {
 .top_text .btn{
 	margin: 10px 5px;
 }
-.top_text h1{
-	font-size: 26px;
-}
+
 .top_wrapper .top_descr .top_centered{
 	padding-top: 20px;
 }
@@ -1014,9 +1012,7 @@ and (max-width : 480px) {
 .top_text .btn{
 	margin: 10px 5px;
 }
-.top_text h1{
-	font-size: 26px;
-}
+
 .top_wrapper .top_descr .top_centered{
 	padding-top: 20px;
 }
