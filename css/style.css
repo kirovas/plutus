@@ -569,9 +569,10 @@ section {
     margin-bottom: 0;
     text-align: center;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 700;
     margin-top: 20px;
     padding-top: 25px; 
+	font-family: 'Montserrat', sans-serif;
 	}
   .podrt_descr p {
     margin-top: 0; 
@@ -792,7 +793,7 @@ li.label{
 .form-group{
 	margin-bottom:40px;
 }
-.form-group input {
+.form-group input, .form-group textarea {
 	border:0px;
 	border-bottom:2px solid #efefef;
 	width:100%;
@@ -930,6 +931,33 @@ label {
 	font-weight:300;
 	color:#767676;
 }
+
+
+
+.modal{
+	position:relative;
+	display:none;
+	
+}
+#purchase_form{
+	padding:0px 15px 15px;
+}
+span.help-block.text-danger{
+	display:inline-block;
+	margin-left:10px;
+}
+span.help-block.text-danger ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    
+}
+span.help-block.text-danger ul  li{
+	display: inline-block;
+    font-size: 10px;
+	font-weight:300!important;
+}
+
 /* ------------------------- Popups */
  
 /* ------------------------- Media Queries */
