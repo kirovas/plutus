@@ -682,12 +682,13 @@ section {
 	font-family: 'Montserrat', sans-serif;
 	font-weight:700;
 	font-size:16px;
+	text-transform:uppercase;
 }
 .team_item_cont p{
 	color:#fff;
 	font-family: 'Montserrat', sans-serif;
 	font-weight:400;
-	font-size:11px;
+	font-size:14px;
 }
 /*PRICE TABLE*/
 
@@ -833,43 +834,53 @@ label {
 	width:100%;
 }
 .sf-logo{
-	/*float:left;*/
+	float:left;
 	border-right:1px solid #fff;
 	    padding: 15px 0px;
-    margin-top: 3px;
+    margin-top: 2px;
+	padding-right:25px;
 }
 .sf-logo img{
 	max-width:100%;
 }
+.address{
+	float:left;
+	margin-left:25px;
+	margin-right:25px;
+}
 .address span{
 	display:inline-block;
 	color:#fff;
-	font-size:36px;
+	font-size:32px;
 }
 .address p{
 	display:inline-block;
 	font-size:13px;
 	color:#fff;
 	font-family: 'Open Sans', sans-serif;
+	font-weight:700;
 	vertical-align: top;
-    padding-top: 23px;
+    padding-top: 17px;
     padding-left: 20px;
 }
 .s-phone, .s-mail{
 	padding:0px;
+	float:right;
+	margin-right:25px;
 }
 .s-phone span, .s-mail span{
 	display:inline-block;
 	color:#fff;
-	font-size:36px;
+	font-size:32px;
 }
 .s-phone p, .s-mail p{
 	display:inline-block;
 	font-size:13px;
 	color:#fff;
 	font-family: 'Open Sans', sans-serif;
+	font-weight:700;
 	vertical-align: top;
-    padding-top: 23px;
+    padding-top: 15px;
     padding-left: 10px;
 }
 .purchase.bottom{
@@ -949,11 +960,18 @@ and (max-width : 320px) {
  .plan.standout{
 	top:0px;
 }
+.sf-logo{
+	float:none;
+}
 .sf-logo img{
 	margin-left: 15px;
 }
+.address{
+	float:none;
+}
 .s-phone, .s-mail {
     padding: 0px 15px;
+	float:none;
 }
 
 }
@@ -966,11 +984,18 @@ and (max-width : 480px) {
  .plan.standout{
 	top:0px;
 }
+.sf-logo{
+	float:none;
+}
 .sf-logo img{
 	margin-left: 15px;
 }
+.address{
+	float:none;
+}
 .s-phone, .s-mail {
     padding: 0px 15px;
+	float:none;
 }
 
 }
@@ -983,11 +1008,18 @@ and (max-width : 768px) {
   .plan.standout{
 	top:0px;
 }
+.sf-logo{
+	float:none;
+}
 .sf-logo img{
 	margin-left: 15px;
 }
+.address{
+	float:none;
+}
 .s-phone, .s-mail {
     padding: 0px 15px;
+	float:none;
 }
 
 }
@@ -997,12 +1029,7 @@ and (max-width : 768px) {
 and (min-width : 769px) 
 and (max-width : 1024px) {
     /* Styles */
- .sf-logo img{
-	margin-left: 15px;
-}
-.s-phone, .s-mail {
-    padding: 0px 15px;
-}
+
 }
  
 /* Larger screens ----------- */
