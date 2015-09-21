@@ -867,7 +867,7 @@ label {
 	font-weight:700;
 	vertical-align: top;
     padding-top: 17px;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 .s-phone, .s-mail{
 	padding:0px;
@@ -1053,6 +1053,9 @@ and (max-width : 768px) {
 and (min-width : 769px) 
 and (max-width : 1024px) {
     /* Styles */
+	  .plan.standout{
+	top:0px;
+}
 	.sf-logo{
 	float:none;
 }
