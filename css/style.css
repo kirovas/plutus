@@ -974,6 +974,7 @@ and (max-width : 320px) {
 }
 .address{
 	float:none;
+	margin-left:15px;
 }
 .s-phone, .s-mail {
     padding: 0px 15px;
@@ -1004,6 +1005,7 @@ and (max-width : 480px) {
 }
 .address{
 	float:none;
+	margin-left:15px;
 }
 .s-phone, .s-mail {
     padding: 0px 15px;
@@ -1034,6 +1036,7 @@ and (max-width : 768px) {
 }
 .address{
 	float:none;
+	margin-left:15px;
 }
 .s-phone, .s-mail {
     padding: 0px 15px;
@@ -1055,6 +1058,7 @@ and (max-width : 1024px) {
 }
 .address{
 	float:none;
+	margin-left:15px;
 }
 .s-phone, .s-mail {
     padding: 0px 15px;
