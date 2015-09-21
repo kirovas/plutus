@@ -85,6 +85,13 @@ $(document).ready(function() {
 
 	$(".top_mnu ul a, a.btn").mPageScroll2id();
 
+	
+	//slide toggle read more 
+	$(".stoggle").click(function() {
+  $(".hide_more").animate({ opacity: 1.0 },200).slideToggle(500, function() {
+    $(".stoggle").text($(this).is(':visible') ? "Show less" : "Read more");
+  });
+});
 });
 $(window).load(function() {
 

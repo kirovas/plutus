@@ -385,10 +385,12 @@ section {
 .feature_grid{
 	position:relative;
 }
-
+.hide_more{
+	display:none;
+}
 .feature{
 	text-align:center;
-	margin-bottom:20px;
+	margin-bottom:30px;
 }
 .feature_i{
 	display:inline-block;
@@ -650,6 +652,35 @@ section {
 .team_item img {
     width: 100%; 
 	}
+.profile_links{
+	margin-top:30px;
+}
+.profile_links a{
+		display:inline-block;
+	width:32px;
+	height:32px;
+	text-align:center;
+	border:2px solid #fff;
+	color:#fff;
+	border-radius:50%;
+	font-size:22px;
+	line-height: 27px;
+	-webkit-transition: all .4s ease-out;
+  -moz-transition: all .4s ease-out;
+  -o-transition: all .4s ease-out;
+  -ms-transition: all .4s ease-out;
+  transition: all .4s ease-out;
+		
+	}
+.profile_links a:hover{
+	color:#1e2a38;
+	border:2px solid #1e2a38;
+ -webkit-transition: all .4s ease-out;
+  -moz-transition: all .4s ease-out;
+  -o-transition: all .4s ease-out;
+  -ms-transition: all .4s ease-out;
+  transition: all .4s ease-out;
+}
 .team_item .team_item_cont {
     position: absolute;
     top: 0;
@@ -658,20 +689,20 @@ section {
     height: 100%;
     background-color: rgba(214, 69, 65, 0.8);
     text-align: center;
-    padding-top: 15%;
+    padding-top: 20%;
     opacity: 0;
     -webkit-transition: all 0.5s;
             transition: all 0.5s; 
 	}
   .team_item:hover .team_item_cont  {
     opacity: 1;
-    padding-top: 20%; 
+    padding-top: 40%; 
 	}
   .team_item h3 {
     color: #fff;
     margin-bottom: 0; 
 	}
-  .team_item a {
+  /*.team_item a {
     background-color: transparent;
     border: #fff 2px solid;
     text-align:center;
@@ -683,7 +714,7 @@ section {
 	border-radius:50%;
     display: inline-block; 
 	margin:20px 5px;
-	}
+	}*/
 .team_item_cont h4{
 	color:#fff;
 	font-family: 'Montserrat', sans-serif;
