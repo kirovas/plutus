@@ -87,6 +87,9 @@ transition: all 0.5s ease-in-out;
 	color:#fff;
 	
 }
+.btn-light:hover{
+	color:#fff;
+}
 .btn-white{
 	background:transparent;
 	border:2px solid #e6e6e6;
