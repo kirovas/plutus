@@ -975,6 +975,9 @@ and (max-width : 320px) {
     padding: 0px 15px;
 	float:none;
 }
+.top_text .btn{
+	margin: 10px 5px;
+}
 
 }
  
@@ -999,6 +1002,9 @@ and (max-width : 480px) {
     padding: 0px 15px;
 	float:none;
 }
+.top_text .btn{
+	margin: 10px 5px;
+}
 
 }
  
@@ -1022,6 +1028,9 @@ and (max-width : 768px) {
 .s-phone, .s-mail {
     padding: 0px 15px;
 	float:none;
+}
+.top_text .btn{
+	margin: 10px 5px;
 }
 
 }
