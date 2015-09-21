@@ -979,7 +979,12 @@ and (max-width : 320px) {
 .top_text .btn{
 	margin: 10px 5px;
 }
-
+.top_text h1{
+	font-size: 26px;
+}
+.top_wrapper .top_descr .top_centered{
+	padding-top: 20px;
+}
 }
  
 /* Smartphones (landscape) ----------- */
@@ -1006,7 +1011,12 @@ and (max-width : 480px) {
 .top_text .btn{
 	margin: 10px 5px;
 }
-
+.top_text h1{
+	font-size: 26px;
+}
+.top_wrapper .top_descr .top_centered{
+	padding-top: 20px;
+}
 }
  
 /* iPads (portrait) ----------- */
@@ -1033,7 +1043,12 @@ and (max-width : 768px) {
 .top_text .btn{
 	margin: 10px 5px;
 }
-
+.top_text h1{
+	font-size: 26px;
+}
+.top_wrapper .top_descr .top_centered{
+	padding-top: 20px;
+}
 }
  
 /* iPads (landscape) ----------- */
