@@ -11,7 +11,7 @@ a{color:#d64541;-webkit-transition: all .4s ease-out;
   -o-transition: all .4s ease-out;
   -ms-transition: all .4s ease-out;
   transition: all .4s ease-out;}
-a:link{-webkit-tap-highlight-color:#FF5E99}
+a:link{-webkit-tap-highlight-color:#fff}
 a:hover{color:#1e2a38;-webkit-transition: all .4s ease-out;
   -moz-transition: all .4s ease-out;
   -o-transition: all .4s ease-out;
@@ -385,6 +385,7 @@ section {
 
 .feature{
 	text-align:center;
+	margin-bottom:20px;
 }
 .feature_i{
 	display:inline-block;
@@ -488,7 +489,7 @@ section {
   }
 .s_portfolio li {
   display: inline-block;
-  margin: 0 2px;
+  margin: 0 2px 10px;
   padding:10px 20px;
   text-transform: uppercase;
   font-size: 14px;
@@ -709,6 +710,7 @@ section {
 	font-family: 'Montserrat', sans-serif;
 	font-weight:700;
 	position: relative;
+	margin-bottom:20px;
 }
 .plan_title{
 	text-align:center;
@@ -759,7 +761,7 @@ li.label{
 
 .plan.standout{
 	top:-48px;
-	margin-bottom: -48px;
+	margin-bottom: 20px;
 }
 .standout .plan_title{
 	background:#873537;
