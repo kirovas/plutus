@@ -356,6 +356,8 @@ section {
  .section_header{
 	text-align:center;
 	margin-bottom:50px;
+	padding-left:15px;
+	padding-right:15px;
  }
  .section_header h2{
 	font-family: 'Montserrat', sans-serif;
