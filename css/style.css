@@ -327,6 +327,7 @@ section {
 	position:relative;
 	  top: -60px;
  }
+
  .loader {
   background: none repeat scroll 0 0 #ffffff;
   bottom: 0;
@@ -338,7 +339,7 @@ section {
   width: 100%;
   z-index: 9999; }
   .loader .loader_inner {
-    background-image: url("../images/preloader.gif");
+    background-image: url("../images/382.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-posirion: center center;

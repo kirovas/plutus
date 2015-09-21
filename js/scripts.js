@@ -95,26 +95,7 @@ $(window).load(function() {
 	$(".top_text p").animated("fadeInUp", "fadeOutDown");
 
 }); 
-$(window).load(function() {
-  $('.flexslider').flexslider({
-    animation: "slide"
-  });
-});
-$('#iview').iView({
-					pauseTime: 7000,
-					pauseOnHover: true,
-					directionNav: true,
-					directionNavHide: false,
-					directionNavHoverOpacity: 0,
-					controlNav: false,
-					nextLabel: "Nachste",
-					previousLabel: "Vorherige",
-					playLabel: "Spielen",
-					pauseLabel: "Pause",
-					timer: "360Bar",
-					timerPadding: 3,
-					timerColor: "#0F0"
-				});
+
 jQuery(document).ready(function($) {
             $('.counter_number').counterUp({
                 delay: 10,
