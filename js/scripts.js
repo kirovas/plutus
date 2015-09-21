@@ -83,7 +83,7 @@ $(document).ready(function() {
 
 	$("input, select, textarea").jqBootstrapValidation();
 
-	$(".top_mnu ul a, a.btn").mPageScroll2id();
+	$(".top_mnu ul a, .top_text a.btn").mPageScroll2id();
 
 	
 	//slide toggle read more 
