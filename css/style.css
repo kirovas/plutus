@@ -900,8 +900,9 @@ li.label{
   outline: none;
 }
 .form-group textarea{
-	min-height:40px;
 	display:block;
+	line-height:16px;
+	padding-top:10px;
 }
 input[type=text]:focus, textarea:focus {
 	border-bottom:2px solid #d64541;
@@ -1210,14 +1211,25 @@ and (max-width : 1024px) {
 }
 	.sf-logo{
 	float:none;
+	border:0px;
 }
 .address{
-	float:none;
+	
 	margin-left:15px;
 }
 .s-phone, .s-mail {
     padding: 0px 15px;
-	float:none;
+	
+}
+.address span, .s-phone span, .s-mail span{
+	display:block;
+	text-align:center;
+}
+.address, .s-phone, .s-mail{
+	margin-right:0px;
+	float:left;
+	width:32%;
+	text-align:center;
 }
 }
  
