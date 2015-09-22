@@ -376,13 +376,9 @@ section {
 	margin-bottom:50px;
 	padding-left:15px;
 	padding-right:15px;
-	opacity:0;
+	
  }
-  .section_header.animation{
-	opacity:1;
-	-webkit-animation-delay: 0.5s;
-    animation-delay: 0.5s;
-  }
+
  .section_header h2{
 	font-family: 'Montserrat', sans-serif;
 	text-transform:uppercase;
@@ -415,13 +411,9 @@ section {
 .feature{
 	text-align:center;
 	margin-bottom:30px;
-	opacity:0;
+	
 }
-.feature.animation{
-	opacity:1;
-	-webkit-animation-delay: 0.5s;
-    animation-delay: 0.5s;
-}
+
 .feature_i{
 	display:inline-block;
 	text-align:center;
@@ -491,24 +483,20 @@ section {
 	line-height:90px;
 	text-align:center;
 	margin-right:30px;
-	opacity:0;
+	
 }
-.purchase_i.animation{
-	opacity:1;
-	-webkit-animation-delay: 0.5s;
-    animation-delay: 0.5s;
-}
+
 .purchase_title{
 	float:left;
 	vertical-align:top;
-	padding-top: 10px;
-	opacity:0;
+	padding-top: 0px;
+	max-width:550px;
+	margin-bottom:20px;
 }
-.purchase_title.animation{
-	opacity:1;
-	-webkit-animation-delay: 0.5s;
-    animation-delay: 0.5s;
+.pw_btn{
+	float:left;
 }
+
 .purchase_title h3{
 	color:#fff;
 	font-size:30px;
@@ -692,13 +680,9 @@ section {
 /*OUR TEAM*/
 .team_item{
 	padding:0px;
-	opacity:0;
+	
 }
-.team_item.animation{
-	opacity:1;
-	-webkit-animation-delay: 0.5s;
-    animation-delay: 0.5s;
-}
+
 .team_item img {
     width: 100%; 
 	}
@@ -752,19 +736,7 @@ section {
     color: #fff;
     margin-bottom: 0; 
 	}
-  /*.team_item a {
-    background-color: transparent;
-    border: #fff 2px solid;
-    text-align:center;
-	width:50px;
-	height:50px;
-	line-height: 45px;
-	font-size:23px;
-	color:#fff;
-	border-radius:50%;
-    display: inline-block; 
-	margin:20px 5px;
-	}*/
+ 
 .team_item_cont h4{
 	color:#fff;
 	font-family: 'Montserrat', sans-serif;
@@ -803,13 +775,8 @@ section {
 	position: relative;
 	margin-bottom:20px;
 	
-	opacity:0;
 }
-.plan.animation{
-	-webkit-animation-delay: 0.5s;
-    animation-delay: 0.5s;
-	opacity:1;
-}
+
 .plan_title{
 	text-align:center;
 	color:#fff;
@@ -1113,7 +1080,7 @@ and (max-width : 320px) {
 	top:0px;
 }
 .sf-logo{
-	float:none;
+	display:none;
 	text-align:center;
 }
 
@@ -1153,7 +1120,7 @@ and (max-width : 480px) {
 	top:0px;
 }
 .sf-logo{
-	float:none;
+	display:none;
 }
 .sf-logo img{
 	margin-left: 15px;
@@ -1187,7 +1154,7 @@ and (max-width : 768px) {
 	top:0px;
 }
 .sf-logo{
-	float:none;
+	display:none;
 }
 .sf-logo img{
 	margin-left: 15px;
@@ -1218,7 +1185,7 @@ and (max-width : 1024px) {
 	top:0px;
 }
 	.sf-logo{
-	float:none;
+	display:none;
 	border:0px;
 }
 .address{
