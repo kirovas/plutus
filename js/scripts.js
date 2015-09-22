@@ -1,22 +1,25 @@
 $(document).ready(function() {
-
+// ############# mixITUp init ######################
 	$("#portfolio_grid").mixItUp();
 
 	$(".s_portfolio li").click(function() {
 		$(".s_portfolio li").removeClass("active");
 		$(this).addClass("active");
 	});
-
+//########### POPUP Plugin magnificPopup ###########
 	$(".popup").magnificPopup({type:"image"});
 	$(".popup_content").magnificPopup({
 		type:"inline",
 		midClick: true
 	});
-	// animation
+	// ################ ANIMATION ##############
 	$('.section_header').waypoint(function(down) {
 		$(this).addClass('animation');
 		$(this).addClass('fadeInUp');
 	}, { offset: '100%' });
+	
+	$(".top_text h1").animated("fadeInDown", "fadeOutUp");
+	$(".top_text p").animated("fadeInUp", "fadeOutDown");
 	
 	$('.feature, .plan').waypoint(function(down) {
 		$(this).addClass('animation');
@@ -36,15 +39,6 @@ $(document).ready(function() {
 		$(this).addClass('animation');
 		$(this).addClass('fadeInUp');
 	}, { offset: '100%' });
-	
-	//$(".section_header").animated("fadeInUp");
-
-	//$(".animation_1").animated("flipInY", "fadeOutDown");
-	//$(".animation_2").animated("fadeInLeft", "fadeOutDown");
-	//$(".animation_3").animated("fadeInRight", "fadeOutDown");
-
-	//$(".left .resume_item").animated("fadeInLeft", "fadeOutDown");
-	//$(".right .resume_item").animated("fadeInRight", "fadeOutDown");
 
 	function heightDetect() {
 		$(".top").css("height", $(window).height());
@@ -53,7 +47,7 @@ $(document).ready(function() {
 	$(window).resize(function() {
 		heightDetect();
 	});
-
+	
 	$(".toggle_mnu").click(function() {
 		$(".sandwich").toggleClass("active");
 	});
@@ -86,7 +80,7 @@ $(document).ready(function() {
 	$(".top_mnu ul a, .top_text a.btn").mPageScroll2id();
 
 	
-	//slide toggle read more 
+	//########### slide toggle read more ####################
 	$(".stoggle").click(function() {
   $(".hide_more").animate({ opacity: 1.0 },200).slideToggle(500, function() {
     $(".stoggle").text($(this).is(':visible') ? "Show less" : "Read more");
@@ -98,8 +92,7 @@ $(window).load(function() {
 	$(".loader_inner").fadeOut();
 	$(".loader").delay(400).fadeOut("slow");
 
-	$(".top_text h1").animated("fadeInDown", "fadeOutUp");
-	$(".top_text p").animated("fadeInUp", "fadeOutDown");
+	
 
 }); 
 
@@ -109,11 +102,11 @@ jQuery(document).ready(function($) {
                 time: 1000
             });
         });
-		
+// ############### GOOGLE MAP #################		
 function initialize() {
         var mapCanvas = document.getElementById('map');
         var mapOptions = {
-          center: new google.maps.LatLng(44.5403, -78.5463),
+          center: new google.maps.LatLng(44.5403, -78.5463), //// Location
           zoom: 8,
 		  scrollwheel: false,
     navigationControl: false,
@@ -242,4 +235,4 @@ function initialize() {
     }
 ]);
       }
-      google.maps.event.addDomListener(window, 'load', initialize);
+google.maps.event.addDomListener(window, 'load', initialize);
