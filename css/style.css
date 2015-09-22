@@ -178,7 +178,8 @@ section {
 	box-shadow:0px 1px 3px rgba(255,255,255,0.7)*/
   }
   .toggle_mnu:hover{
-	color:#d64541;
+	opacity:0.8;
+	color:#fff;
   }
   .toggle_mnu span {
     display: block; }
@@ -793,6 +794,9 @@ section {
 .dark_bg .s_descr_wrap{
 	color:#fff;
 }
+#plan{
+	padding-bottom:40px;
+}
 .plan{
 	font-family: 'Montserrat', sans-serif;
 	font-weight:700;
@@ -926,7 +930,7 @@ label {
   pointer-events: none;
 }
 .left-addon .fa  { left:  0px;}
-.left-addon input, .left-addon textarea  { padding-left:  30px; }
+.left-addon input, .left-addon textarea  { padding-left:  40px; }
 .form_button{
 	text-align:center;
 }
@@ -982,6 +986,9 @@ label {
 	padding:0px;
 	float:right;
 	margin-right:85px;
+}
+.s-phone{
+	margin-right:100px;
 }
 .s-phone span, .s-mail span{
 	display:inline-block;
