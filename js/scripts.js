@@ -86,6 +86,20 @@ $(document).ready(function() {
     $(".stoggle").text($(this).is(':visible') ? "Show less" : "Read more");
   });
 });
+$(".ttoggle").click(function() {
+  $(".hide_tm").animate({ opacity: 1.0 },200).slideToggle(500, function() {
+    $(".ttoggle").text($(this).is(':visible') ? "Show less" : "Read more");
+  });
+});
+});
+//comments slider
+$(window).load(function() {
+  $('.com_inner').flexslider({
+    animation: "slide",
+	directionNav: false,
+	
+	controlsContainer: ".com_slider_bul"
+  });
 });
 $(window).load(function() {
 
