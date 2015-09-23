@@ -39,7 +39,14 @@ $(document).ready(function() {
 		$(this).addClass('animation');
 		$(this).addClass('fadeInUp');
 	}, { offset: '100%' });
-
+	$('.left .timeline_item').waypoint(function(down) {
+		$(this).addClass('animation');
+		$(this).addClass('slideInLeft');
+	}, { offset: '100%' });
+	$('.right .timeline_item').waypoint(function(down) {
+		$(this).addClass('animation');
+		$(this).addClass('slideInRight');
+	}, { offset: '100%' });
 	function heightDetect() {
 		$(".top").css("height", $(window).height());
 	};
