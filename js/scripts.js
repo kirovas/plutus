@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	
-	$('.counter').parallax("50%", 0.1);
+	$('.counter, .comments').parallax("50%", 0.1);
 	$('.top').parallax("50%", 0.4);
 
 })
