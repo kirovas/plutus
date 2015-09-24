@@ -1,3 +1,9 @@
+$(document).ready(function(){
+	
+	$('.counter').parallax("50%", 0.1);
+	$('.top').parallax("50%", 0.4);
+
+})
 $(document).ready(function() {
 // ############# mixITUp init ######################
 	$("#portfolio_grid").mixItUp();

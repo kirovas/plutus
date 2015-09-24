@@ -129,12 +129,19 @@ transition: all 0.5s ease-in-out;
 }
 section {
   padding: 70px 0 90px;
-  
+  background:#fff;
+  position:relative;
 }
  .top{
 	overflow:hidden;
 	min-height: 480px;
 	padding-top: 0px;
+	background:url(../images/bg2.jpg)no-repeat fixed;
+	background-position: 50% 50% !important;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
  }
  .top_overlay{
 	position:absolute;
@@ -522,6 +529,9 @@ section {
 /* ==========================================================
 ! PORTFOLIO
 ========================================================== */
+#portfolio{
+	z-index:20;
+}
 .s_portfolio ul,
 .s_portfolio li {
   list-style-type: none;
@@ -632,6 +642,12 @@ section {
 .counter{
 	position:relative;
 	padding:70px 0px 60px;
+	background:url(../images/bg1.jpg)no-repeat fixed;
+	background-position: 50% 50% !important;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .counter:after{
 	content:'';
@@ -690,6 +706,9 @@ section {
 /* ==========================================================
 ! OUR TEAM
 ========================================================== */
+#team{
+	z-index:20;
+}
 .team_item{
 	padding:0px;
 	
@@ -1383,8 +1402,12 @@ and (max-width : 320px) {
 .timeline_container .left .timeline_item{
 	margin-right:0px;
 }
+.timeline_container .right{
+	padding-top: 0px;
+}
 .timeline_container .right .timeline_item{
 	margin-left:0px;
+
 }
 .timeline_container .right .timeline_item  .time_pin, .timeline_container .left .timeline_item  .time_pin{
 	display:none;
@@ -1429,8 +1452,12 @@ and (max-width : 480px) {
 .timeline_container .left .timeline_item{
 	margin-right:0px;
 }
+.timeline_container .right{
+	padding-top: 0px;
+}
 .timeline_container .right .timeline_item{
 	margin-left:0px;
+	
 }
 .timeline_container .right .timeline_item  .time_pin, .timeline_container .left .timeline_item  .time_pin{
 	display:none;
@@ -1471,8 +1498,12 @@ and (max-width : 768px) {
 .timeline_container .left .timeline_item{
 	margin-right:0px;
 }
+.timeline_container .right{
+	padding-top: 0px;
+}
 .timeline_container .right .timeline_item{
 	margin-left:0px;
+	
 }
 .timeline_container .right .timeline_item  .time_pin, .timeline_container .left .timeline_item  .time_pin{
 	display:none;
