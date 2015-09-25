@@ -108,6 +108,13 @@ $(".ttoggle").click(function() {
 //comments slider
 $(window).load(function() {
   $('.com_inner').flexslider({
+	   pauseOnAction: true, // default setting
+	after: function(slider) {
+    /* auto-restart player if paused after action */
+    if (!slider.playing) {
+      slider.play();
+    }
+  },
     animation: "slide",
 	directionNav: false,
 	
